@@ -3,6 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
+    background-color: #ff7582;
   }
   
   a {
@@ -39,7 +40,7 @@ body {
   input.search-box {
     width: 80%;
     padding: 10px 20px;
-    border: 1px solid #e7e7e7;
+    border: 1px solid #e7e7e7; 
     color: #999;
   }
   
@@ -49,14 +50,15 @@ body {
     margin-left: -8px;
     padding: 10px 20px;
     outline: none;
-    border: 1px solid #ff7582;
-    background-color: #ff7582;
+    border: 1px solid #fff3f4;
+    background-color: #fff3f4;
     cursor: pointer;
+    border-left: 1px solid salmon;
   }
   
   button.submit i {
     font-size: 14px;
-    color: #fff;
+    color: salmon;
   }
   
   .row {
@@ -68,10 +70,15 @@ body {
   .single-card {
     width: 100%;
     min-height: 350px;
-    background-color: #e7e7e7;
+    background-color: #fdf7f7;
     text-align: center;
     border-radius: 10px;
     cursor: pointer;
+    color: #ff7582;
+  }
+  .single-card:hover {
+    color: salmon;
+    background-color: antiquewhite;
   }
   
   .single-card img {
@@ -99,13 +106,14 @@ body {
   
   .logo-container {
     padding-top: 40px;
-    text-align: center;
     font-size: 50px;
   }
   
   .logo-container span {
     font-family: "Noto Sans JP", sans-serif;
-    color: #ff7582;
+    color: #fff;
     font-weight: 700;
+    float: left;
+    margin-left: 180px;
   }
   
